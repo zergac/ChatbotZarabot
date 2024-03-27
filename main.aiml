@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+
+<category>
+    
+    <pattern>Hello</pattern>
+    <template>
+        Hi! My name is Zarabot! I am here to help you decide on your best carreer option by identifying your strengths and preferences. Would you like to begin now?
+        (Yes,No)
+    </template>
+  
+</category>
+
+<category>
+    <pattern>No</pattern>
+    <template>
+        <delay>2</delay>
+        That's okay! I'll be right here waiting for your 'Hello' whenever you're ready to start.
+    </template>
+</category>
+
+<category>
+    <pattern>
+        Yes
+    </pattern>
+    <template>
+        <delay>2</delay>
+        Awesome! Here are the careers choices that we will look into to see what fits you best:
+        <ul>
+            <li>Software Developer</li>
+            <li>Data Analyst</li>
+            <li>Network Engineer</li>
+            <li>Cybersecurity Analyst</li>
+            <li>Systems Analyst</li>
+            <li>Database Administrator</li>
+        </ul>
+        <delay>2</delay>
+        Let's get into it!
+        Do you enjoy problem-solving through code?
+        <button>
+            <text>Yes</text>
+            <postback>YesSoft</postback>
+        </button>
+        <button>
+            <text>No</text>
+            <postback>NoSoft</postback>
+        </button>
+    </template>
+</category>
+
+<category>
+    <pattern>YesSoft</pattern>
+    <template>
+        Are you excited about continual tech learning?
+        <button>
+            <text>Yes</text>
+            <postback>YesSoft2</postback>
+        </button>
+        <button>
+            <text>No</text>
+            <postback>NoSoft2</postback>
+        </button>
+    </template>
+</category>
+
+<category>
+    <pattern>NoSoft</pattern>
+    <template>
+        Do you enjoy finding insights from data?
+        <button>
+            <text>Yes</text>
+            <postback>YesData</postback>
+        </button>
+        <button>
+            <text>No</text>
+            <postback>NoData</postback>
+        </button>
+    </template>
+</category>
+
+<category>
+    <pattern>YesSoft2</pattern>
+    <template>
+        Do you like both front-end and back-end work?
+        <button>
+            <text>Yes</text>
+            <postback>YesSoft3</postback>
+        </button>
+        <button>
+            <text>No</text>
+            <postback>NoSoft3</postback>
+        </button>
+    </template>
+</category>
+
+<category>
+    <pattern>NoSoft2</pattern>
+    <template>
+        Do you like designing computer networks?
+        <button>
+            <text>Yes</text>
+            <postback>YesNetE</postback>
+        </button>
+        <button>
+            <text>No</text>
+            <postback>NoNetE</postback>
+        </button>
+    </template>
+</category>
+
+<category>
+    <pattern>NoSoft3</pattern>
+    <template>
+        Do you enjoy protecting systems from cyber threats?
+        <button>
+            <text>Yes</text>
+            <postback>YesCyber</postback>
+        </button>
+        <button>
+            <text>No</text>
+            <postback>NoCyber</postback>
+        </button>
+    </template>
+</category>
+
+<category>
+    <pattern>YesData</pattern>
+    <template>
+        Are you familiar with data analysis tools?
+        <button>
+            <text>Yes</text>
+            <postback>YesData2</postback>
+        </button>
+        <button>
+            <text>No</text>
+            <postback>NoData2</postback>
+        </button>
+    </template>
+</category>
+
+<category>
+    <pattern>NoData</pattern>
+    <template>
+        Do you enjoy improving computer systems and processes?
+        <button>
+            <text>Yes</text>
+            <postback>YesSyst</postback>
+        </button>
+        <button>
+            <text>No</text>
+            <postback>NoS</postback>
+        </button>
+    </template>
+</category>
+
+<category>
+    <pattern>NoNetE</pattern>
+    <template>
+        Are you skilled in analyzing and countering security risks?
+        <button>
+            <text>Yes</text>
+            <postback>YesCyber</postback>
+        </button>
+        <button>
+            <text>No</text>
+            <postback>NoS</postback>
+        </button>
+    </template>
+</category>
+
+<category>
+    <pattern>NoCyber</pattern>
+    <template>
+        Are you skilled in recommending tech system changes?
+        <button>
+            <text>Yes</text>
+            <postback>YesSyst</postback>
+        </button>
+        <button>
+            <text>No</text>
+            <postback>NoS</postback>
+        </button>
+    </template>
+</category>
+
+<category>
+    <pattern>NoData2</pattern>
+    <template>
+        Are you skilled in network setup and problem-solving?
+        <button>
+            <text>Yes</text>
+            <postback>YesNetE</postback>
+        </button>
+        <button>
+            <text>No</text>
+            <postback>Nos</postback>
+        </button>
+    </template>
+</category>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</aiml>

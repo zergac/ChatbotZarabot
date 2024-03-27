@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <category>
+    <pattern>*</pattern>
+    <template><delay>3</delay>My apologies, I do not have an answer for that. Please start from the beginning by saying "Hello".</template>
+  </category>
+
+
+</aiml>

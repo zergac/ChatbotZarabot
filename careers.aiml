@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	
+<category>
+    <pattern>YesSoft3</pattern>
+    <template>
+       Software Developer!
+       <delay>2</delay>
+       They design and create software applications using programming languages and tools, 
+       ensuring they meet user needs. They collaborate with teams to test, fix bugs, 
+       and deploy functional software. After deployment, they maintain and update the 
+       software to ensure its ongoing functionality and relevance in a dynamic tech environment.
+       <delay>2</delay>
+       I hope I provided you the right choice! If you would like to start again please write "Hello"
+    </template>
+</category>
+
+<category>
+    <pattern>YesData2</pattern>
+    <template>
+       Data Analyst!
+       <delay>2</delay>
+       They sift through vast datasets, extracting valuable insights and trends crucial for informed 
+       decision-making within organizations. They clean and analyze data, presenting their findings 
+       through visualizations and reports to guide strategic business choices.
+       <delay>2</delay>
+       I hope I provided you the right choice! If you would like to start again please write "Hello"
+    </template>
+</category>
+
+<category>
+    <pattern>YesNetE</pattern>
+    <template>
+       Network Engineer!
+       <delay>2</delay>
+       They design and build computer networks, ensuring they're secure and efficient. They also maintain
+       these networks to guarantee continuous, reliable communication for organizations.
+       <delay>2</delay>
+       I hope I provided you the right choice! If you would like to start again please write "Hello"
+    </template>
+</category>
+
+<category>
+    <pattern>YesCyber</pattern>
+    <template>
+       Cybersecurity Analyst!
+       <delay>2</delay>
+       They defend systems from cyber threats by analyzing, responding to, and preventing security breaches.
+       They continuously monitor for potential risks, implementing measures to ensure the safety of organizational
+       data and systems.
+       <delay>2</delay>
+       I hope I provided you the right choice! If you would like to start again please write "Hello"
+    </template>
+</category>
+
+<category>
+    <pattern>YesSyst2</pattern>
+    <template>
+       Systems Analyst!
+       <delay>2</delay>
+       They evaluate and improve organizational computer systems, recommending and designing enhancements that
+       align technology with business objectives. They collaborate with stakeholders to implement efficient and 
+       effective system changes.
+       <delay>2</delay>
+       I hope I provided you the right choice! If you would like to start again please write "Hello"
+    </template>
+</category>
+
+<category>
+    <pattern>Nos</pattern>
+    <template>
+       Database Administrator!
+       <delay>2</delay>
+       They oversee an organization's databases, ensuring they're secure and function smoothly. They manage data 
+       integrity, optimize performance, and implement security measures to safeguard sensitive information. Their 
+       role involves maintenance, troubleshooting, and ensuring databases are accessible for organizational needs.
+       <delay>2</delay>
+       I hope I provided you the right choice! If you would like to start again please write "Hello"
+    </template>
+</category>
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+</aiml>
